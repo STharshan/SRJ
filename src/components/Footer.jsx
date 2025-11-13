@@ -8,6 +8,7 @@ import {
   Instagram,
   Mail,
 } from "lucide-react";
+import { SITE_NAME, PHONE_NUMBER} from "../components/global"; // ✅ import global text
 
 export default function FooterSection() {
   const ratingItems = [
