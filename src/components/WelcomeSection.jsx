@@ -62,7 +62,7 @@ Our purpose-built facilities combine modern convenience with a homely charm, off
             data-aos-duration="1200"
           >
             <img
-              src="a5.jpg"
+              src="lo.webp"
               alt="Beechdale House entrance with elegant white columns and glass doors"
               className="object-cover w-full h-full"
               loading="lazy"
