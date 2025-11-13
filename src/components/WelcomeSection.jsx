@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { SITE_NAME} from "../components/global"; // ✅ import global text
 
 export default function WelcomeSection() {
   useEffect(() => {
@@ -15,7 +16,7 @@ export default function WelcomeSection() {
           {/* Left Content */}
           <div data-aos="fade-right" data-aos-duration="1000">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#3C2E2B] mb-6">
-              Welcome to The Old Vicarage
+              Welcome to {SITE_NAME}
             </h2>
 
             <p

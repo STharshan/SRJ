@@ -102,7 +102,7 @@ export default function FooterSection() {
           {/* Column 1 */}
           <div>
             <h3 className="font-serif text-lg font-semibold mb-4">
-              The Old Vicarage
+              {SITE_NAME}
             </h3>
             <p className="text-sm text-white/80 mb-4 leading-relaxed">
               Exceptional care in a welcoming environment
@@ -114,10 +114,10 @@ export default function FooterSection() {
               <p> Long Eaton, Nottingham NG10 4ES, United Kingdom</p>
               <p className="pt-2">
                 <a
-                  href="tel:+44 115 972 7454"
+                  href={`tel:${PHONE_NUMBER}`}
                   className="hover:text-white transition-colors"
                 >
-                  +44 115 972 7454
+                  {PHONE_NUMBER}
                 </a>
               </p>
               {/* <p>
@@ -249,7 +249,7 @@ export default function FooterSection() {
         {/* Footer Bottom */}
         <div className="mt-8 pt-8 border-t border-white/20 text-center">
           <p className="text-sm text-white/60">
-            © 2025 The Old Vicarage. All rights reserved.
+            © 2025 {SITE_NAME}. All rights reserved.
           </p>
           <p className="text-center font-semibold text-gray-400">
             Powered by{" "}

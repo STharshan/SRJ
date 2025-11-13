@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Phone, Menu, X } from "lucide-react";
+import { SITE_NAME, PHONE_NUMBER} from "../components/global"; // ✅ import global text
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ export default function Navbar() {
           className="flex items-center space-x-2 transition-opacity hover:opacity-80"
         >
           <span className="font-serif text-xl font-semibold text-[#3C2E2B]">
-            The Old Vicarage
+            {SITE_NAME}
 
           </span>
         </a>
@@ -44,11 +45,11 @@ export default function Navbar() {
         {/* Right Side Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+44 115 972 7454"
+            href={`tel:${PHONE_NUMBER}`}
             className="inline-flex items-center justify-center h-8 rounded-md gap-1.5 px-3 border border-primary text-[#3C2E2B] text-primary-hover  bg-transparent text-sm font-medium transition-all"
           >
             <Phone className="h-4 w-4 mr-2" strokeWidth={2} />
-           +44 115 972 7454
+           {PHONE_NUMBER}
           </a>
           <button className="inline-flex items-center justify-center h-8 rounded-md px-3 bg-primary bg-secondary-hover text-white text-sm font-medium transition-colors">
             Book a visit
@@ -86,11 +87,11 @@ export default function Navbar() {
 
             {/* Mobile Buttons */}
             <a
-              href="tel:+44 115 972 7454"
+              href={`tel:${PHONE_NUMBER}`}
               className="mt-3 inline-flex items-center justify-center w-full h-10 rounded-md gap-2 px-3 border border-primary  text-[#3C2E2B] text-primary-hover hover:bg-[#F2E8DD] text-sm font-medium transition-all"
             >
               <Phone className="h-4 w-4" strokeWidth={2} />
-              +44 115 972 7454
+              {PHONE_NUMBER}
             </a>
 
             <button

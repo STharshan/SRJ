@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Phone } from "lucide-react";
+import { SITE_NAME, PHONE_NUMBER} from "../components/global"; // ✅ import global text
 
 export default function HeroSection() {
   useEffect(() => {
@@ -39,7 +40,7 @@ export default function HeroSection() {
           data-aos="fade-down"
           className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-primary drop-shadow-lg"
         >
-          The Old Vicarage
+          {SITE_NAME} 
         </h1>
 
         <p
@@ -47,7 +48,7 @@ export default function HeroSection() {
           data-aos-delay="200"
           className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow"
         >
-      The Old Vicarage is a luxurious purpose-built care home offering an oasis of peace and tranquillity in luxurious and caring surroundings.
+      {SITE_NAME}  is a luxurious purpose-built care home offering an oasis of peace and tranquillity in luxurious and caring surroundings.
         </p>
 
         {/* Buttons */}
@@ -61,11 +62,11 @@ export default function HeroSection() {
           </button>
 
           <a
-            href="tel:+44 115 972 7454"
+            href={`tel:${PHONE_NUMBER}`}
             className="inline-flex items-center justify-center h-10 rounded-md px-6 border border-white/20 bg-white/10 backdrop-blur text-white border-primary-hover text-sm font-medium shadow-lg transition-all"
           >
             <Phone className="h-5 w-5 mr-2" />
-            Call +44 115 972 7454
+            Call {PHONE_NUMBER}
           </a>
         </div>
       </div>
