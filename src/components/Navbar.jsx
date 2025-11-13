@@ -23,7 +23,8 @@ export default function Navbar() {
           className="flex items-center space-x-2 transition-opacity hover:opacity-80"
         >
           <span className="font-serif text-xl font-semibold text-[#3C2E2B]">
-            S R J Care Home Ltd
+            The Old Vicarage
+
           </span>
         </a>
 

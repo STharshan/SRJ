@@ -39,7 +39,7 @@ export default function HeroSection() {
           data-aos="fade-down"
           className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-primary drop-shadow-lg"
         >
-          S R J Care Home Ltd
+          The Old Vicarage
         </h1>
 
         <p
@@ -47,7 +47,7 @@ export default function HeroSection() {
           data-aos-delay="200"
           className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow"
         >
-      S R J Care Home Ltd is a luxurious purpose-built care home offering an oasis of peace and tranquillity in luxurious and caring surroundings.
+      The Old Vicarage is a luxurious purpose-built care home offering an oasis of peace and tranquillity in luxurious and caring surroundings.
         </p>
 
         {/* Buttons */}

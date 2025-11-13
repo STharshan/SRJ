@@ -15,7 +15,7 @@ export default function WelcomeSection() {
           {/* Left Content */}
           <div data-aos="fade-right" data-aos-duration="1000">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#3C2E2B] mb-6">
-              Welcome to S R J Care Home Ltd
+              Welcome to The Old Vicarage
             </h2>
 
             <p
@@ -23,9 +23,7 @@ export default function WelcomeSection() {
               data-aos="fade-up"
               data-aos-delay="150"
             >
-              Our purpose-built care home in Nottingham provides exceptional
-              residential and nursing care for up to 40 residents in a warm,
-              welcoming environment.
+            At The Old Vicarage, we provide exceptional care in a warm, welcoming environment where every resident is valued and respected. Our dedicated team of professionals specializes in supporting older adults, individuals living with dementia, those with learning disabilities or autism,
             </p>
 
             <p
@@ -33,9 +31,7 @@ export default function WelcomeSection() {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              With modern facilities, beautiful gardens, and a dedicated team of
-              professionals, Beechdale House offers the perfect balance of
-              clinical excellence and homely comfort.
+Our purpose-built facilities combine modern convenience with a homely charm, offering beautifully designed living spaces, serene gardens, and engaging activities tailored to each resident’s needs. At The Old Vicarage, we go beyond care—we foster connection, promote independence, and celebrate life’s moments together.
             </p>
 
             <div

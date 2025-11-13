@@ -15,27 +15,27 @@ export default function CareTypesSection() {
 
   const careTypes = [
     {
-      title: "Residential Care",
+      title: "Older Person Care",
       description:
-        "The rooms come fully furnished with internet, Wifi, TV and Radio connectivity for entertainment and communication with families wherever they may be. Some of the ground floor suites have direct access from the room into the garden courtyard.",
+        "Older person care supports seniors in maintaining their health, independence, and quality of life. It combines practical assistance with emotional support in a safe and comfortable environment.",
       href: "/care/residential/",
-    },
-    {
-      title: "Nursing Care",
-      description:
-        "Specialist Nurses and staff on hand 24 hours a day to help with any resident need, whether that be assisting in daily tasks like washing and dressing or simply having a chat over a cup of tea.",
-      href: "/care/dementia/",
     },
     {
       title: "Dementia Care",
       description:
-        "A dedicated specialist dementia unit with a large terrace balcony offers residents easily accessible outdoor space.",
+        "Dementia care focuses on individuals experiencing memory loss or cognitive decline. It provides structured routines, compassionate support, and tailored activities to enhance daily living and well-being.",
+      href: "/care/dementia/",
+    },
+    {
+      title: "Learning Disability / Autism",
+      description:
+        "Care for those with learning disabilities or autism offers personalized support to develop skills, independence, and social engagement. It emphasizes understanding, patience, and tailored approaches to meet individual needs.",
       href: "/care/respite/",
     },
     {
-      title: "Respite Care",
+      title: "Mental Health Condition",
       description:
-        "This is short term accommodation that we can offer for as short as one week, across all our units, Residential, Nursing and Dementia.",
+        "Mental health care supports individuals facing conditions like anxiety, depression, or other disorders. It combines therapy, guidance, and practical strategies to improve well-being and daily functioning.",
       href: "/care/nursing/",
     },
   ];

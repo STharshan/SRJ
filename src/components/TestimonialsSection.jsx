@@ -40,27 +40,25 @@ export default function Review() {
   const testimonials = [
      {
       text:
-        `Mum was resident at the home for the final 6 weeks of her life. She was 94, very frail and we were no longer, as a family, able to provide the nursing care she needed as she neared the end of her life.
-From day 1 Mum was looked after by caring staff, who treated her with dignity and kindness throughout.",
-      name: "Stephen Bramley`,
-      initials: "Son",
+        `Dreadfully understaffed. Frequent change of staff and management. Clearly no investment in building or staff. Agency staff not adequately trained. I do not believe my father's basic care needs are being met.`,
+      initials: "Daughter of Resident",
     },
     {
       text:
-        "My dad was in Clifton manor for over 1 year he had dementia. Clifton manor was so caring and helpful with helping us transition my dad from living with us to permanently to living at Clifton manor as we felt guilty for having to make that decision.",
+        "My relative went into this home a couple of months ago. Since moving in, I have peace of mind. I know that he is well looked after and that he has people that actually care about him. The staff are caring and take the time to feed him as he is unable to do this. They change him regularly and move his position to make sure there are no bedsores.",
       name: "Deborah M",
       initials: "Daughter of Resident",
     },
     {
       text:
-        "A truly wonderful team. The staff treat every resident with warmth, patience and respect — it feels like an extended family.",
-      name: "Mark P.",
+        "The home has always been clean warm and welcoming. The staff are always attentive and doing activities or sitting and chatting to the residents. My mum seems happy and settled.",
+      name: "Patricia B",
       initials: "Son",
     },
     {
       text:
-        "I can’t thank the team enough for their constant support and kindness. Every day they go above and beyond for my father’s comfort and wellbeing.",
-      name: "Laura D.",
+        "My mother was in The Old Vicarage Care Home for over 9 years and from day one we were very pleased with the care and love she received. The staff were kind at all times and spent as much time as they could talking to her especially when she was eventually confined to her room.",
+      name: "Leah H",
       initials: "Daughter",
     }
   ];
